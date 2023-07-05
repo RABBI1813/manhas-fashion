@@ -1,0 +1,103 @@
+body{
+    background-color: #E6E6E6;
+}
+
+.navbar-brand img {
+  height: 80px;
+}
+.logo {
+  padding: 0 15px;
+}
+nav a {
+  color: black;
+  font-weight: 500;
+}
+
+.header-part {
+  background-color: #fffbf0;
+  height: 600px;
+}
+.header {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.header h1 {
+  color: #fabe4c;
+  font-weight: 800;
+}
+.header span {
+  color: #363958;
+}
+.my-button {
+  background: #9ab337 !important;
+  border-radius: 20px;
+  border: none;
+}
+button a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+button img {
+  height: 30px;
+  margin-right: 5px;
+}
+.header-right img {
+  height: 30%;
+  margin-top: -70px;
+}
+
+.jacket {
+  height: 350px;
+  width: 300px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+}
+
+.footer h2 {
+  color: #fabe4c;
+  font-weight: 800;
+}
+.services{
+    height: 700px;
+
+}
+.service-img{
+    height:600px;
+
+}
+.service img{
+    height:100px
+}
+.service{
+    border-radius:20px;
+}
+.card-footer{
+    border-top: none!important;
+}
+.my-carousel{
+    
+}
+.shoe{
+    height:700px;
+    width:600px;
+}
+.shoes{
+
+}
+
+@media (min-width: 576px) { 
+    grid-template-columns: (2, 1fr);
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... }
